@@ -1,27 +1,24 @@
+html,body {
+	font-family: "Roboto",serif;
+}
 
-.project{
-	width: 100%;
-}
-h1,h2,h3{
-	padding: 0;
-	max-width: 100%;
-	max-height: 100%;
-}
-h1{
+h1 {
 	text-shadow:  5px 5px 10px #02b3e4;
 }
 /*img scale: */
-img{
+img {
 	width: 100%;  
 	height: auto;
 }
-img:hover{
+
+img:hover {
 	opacity: .5;
 	-webkit-transition: all .9s ease-in-out;
 	-webkit-transition: all .4s ease-in-out;
 	-moz-transition: all .4s ease-in-out;
 }
-#top{
+
+.top {
 	width: 100%;
 	border: 2px solid;
 	box-shadow: 5px 10px #02b3e4;
@@ -29,90 +26,81 @@ img:hover{
 	padding: 5px;
 	background-color: white;
 	display: flex;
+	align-self: center;
 	flex-wrap: wrap; /* same length, regardless of its content*/
 }
-*{
+
+* {
 	box-sizing: border-box; /*markup correctly*/
 }
-.logo{
-	width: 20%;
+
+.logo {
+	width: 10%;
 	float: left;
 }
-.top_right{
+
+.top-right {
 	font-style: oblique;
 	text-align: right;
 	text-shadow:  5px 5px 10px #02b3e4;
-	width: 45%;
+	width: 70%;
 	height: auto;
-}
-.logo > img{
-	height: auto;
-	width: 60%;
+
 }
 
-.light_white{
+.light-white {
 	padding-top: 20px;
 	min-height: 150px;
 	justify-content: center;
 	font-size: 25px;
 	font-family: 'Roboto', serif;
 	width: 100%;
-	color:black;
-	padding-left:1em;
+	color: black;
+	padding-left: 1em;
 }
-.footer{
+
+.footer {
 	position: fixed;
 	left: 0;
 	bottom: 0px;
 	width: 100%;
-	background-color:#02b3e4;
+	background-color: #02b3e4;
 	color: white;
 	text-align: center; 
-
-
 }
-.main{
+
+.main {
 	justify-content: center;
 }
-#social_media a{
+
+.social-media a {
 	margin-right: 30px;
 }
-#social_media a:hover{
+
+.social-media a:hover {
 	
 	text-align: center;
 	background-color: white;
-	color:black;
+	color: black;
 }
 
-.second_container{
-	
-		display: -webkit-box;
-		display: -moz-box;
-		display: -ms-flexbox;
-		display: -webkit-flex;
-		display: flex;
+.flex-container {
+	display: flex;
+	-webkit-flex-flow: row wrap;
+	justify-content: space-around;
+}
 
-		-webkit-flex-flow:row wrap;
-		justify-content: space-between;
-	}
+.first {
+	width: 200px;
+	height: 270px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
 
-.first{
-
-		width: 200px;
-		height: 270px;
-		margin-top: 5px;
-		margin-bottom: 5px;
-	}
-
-.project h3{
+.project h3 {
 	margin-top: 15px;
 	width: 100%;
 	height: auto;
 	text-align: center;
 	font-style: italic;
-
-
 }
-
-
-	

@@ -1,3 +1,28 @@
-@-ms-viewport{
-  width: device-width;
+@-ms-viewport {
+	width: device-width;
+}
+
+@media all and (max-width: 407px){
+	.top-right {
+		font-size: 2em;
+		text-align: right;
+	}
+	.first img {
+		width: 100%;
+		height: 180px;
+	}
+}
+
+@media all and(min-width: 989px)
+{
+	.first img {
+		max-width: 100%;
+		height: auto;
+		display: block;
+		vertical-align: middle;
+	}
+
+	.top-right {
+		font-size: 20em;
+	}
 }
