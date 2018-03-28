@@ -37,7 +37,6 @@ img:hover {
 
 .logo {
 	width: 10%;
-	float: left;
 }
 
 .top-right {
@@ -53,8 +52,7 @@ img:hover {
 	padding-top: 20px;
 	min-height: 150px;
 	justify-content: center;
-	font-size: 25px;
-	font-family: 'Roboto', serif;
+	font: 25px "Roboto", serif;
 	width: 100%;
 	color: black;
 	padding-left: 1em;
